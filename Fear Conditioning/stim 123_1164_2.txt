@@ -1,0 +1,62 @@
+	chanList1(0) = 0
+	chanList1(1) = 1
+	chanList1(2) = 1
+	chanList1(3) = 1
+	chanList1(4) = 1
+	chanList1(5) = 0
+
+	refList1(0) = 0
+	refList1(1) = 2
+	refList1(2) = 2
+	refList1(3) = 2
+	refList1(4) = 2
+	refList1(5) = 0
+
+  	freqList1(0) = 400
+	freqList1(1) = 100
+	freqList1(2) = 400
+	freqList1(3) = 100
+	freqList1(4) = 400
+	freqList1(5) = 100
+
+	chanList2(0) = 0
+	chanList2(1) = 8
+	chanList2(2) = 8
+	chanList2(3) = 8
+	chanList2(4) = 8
+	chanList2(5) = 0
+
+	refList2(0) = 0
+	refList2(1) = 6
+	refList2(2) = 6
+	refList2(3) = 6
+	refList2(4) = 6
+	refList2(5) = 0
+
+  	freqList2(0) = 400
+	freqList2(1) = 100
+	freqList2(2) = 100
+	freqList2(3) = 400
+	freqList2(4) = 100
+	freqList2(5) = 400
+
+	ampList1(0) = 0
+	ampList1(1) = 30
+	ampList1(2) = 30
+	ampList1(3) = 30
+	ampList1(4) = 30
+	ampList1(5) = 0
+
+	ampList2(0) = 0
+	ampList2(1) = 35
+	ampList2(2) = 35
+	ampList2(3) = 35
+	ampList2(4) = 35
+	ampList2(5) = 0
+
+	ampList3(0) = 0
+	ampList3(1) = 40
+	ampList3(2) = 40
+	ampList3(3) = 40
+	ampList3(4) = 40
+	ampList3(5) = 0
