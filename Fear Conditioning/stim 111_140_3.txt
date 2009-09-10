@@ -1,12 +1,12 @@
 	chanList1(0) = 16
-	refList1(0) = 2
+	refList1(0) = 5
   	freqList1(0) = 100
 	ampList11(0) = 20
 	ampList12(0) = 25
 	ampList13(0) = 30
 
 	chanList2(0) = 16
-	refList2(0) = 2
+	refList2(0) = 5
   	freqList2(0) = 800
 	ampList21(0) = 20
 	ampList22(0) = 25
@@ -27,14 +27,14 @@
 	ampList23(1) = 30
 
 	chanList1(2) = 16
-	refList1(2) = 2
+	refList1(2) = 5
   	freqList1(2) = 100
 	ampList11(2) = 30
 	ampList12(2) = 35
 	ampList13(2) = 40
 
 	chanList2(2) = 16
-	refList2(2) = 2
+	refList2(2) = 5
   	freqList2(2) = 800
 	ampList21(2) = 30
 	ampList22(2) = 25
@@ -55,14 +55,14 @@
 	ampList23(3) = 40
 
 	chanList1(4) = 16
-	refList1(4) = 2
+	refList1(4) = 5
   	freqList1(4) = 400
 	ampList11(4) = 20
 	ampList12(4) = 25
 	ampList13(4) = 30
 
 	chanList2(4) = 16
-	refList2(4) = 2
+	refList2(4) = 5
   	freqList2(4) = 800
 	ampList21(4) = 20
 	ampList22(4) = 25
