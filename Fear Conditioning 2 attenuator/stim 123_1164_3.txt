@@ -1,0 +1,83 @@
+	chanList1(0) = 1
+	refList1(0) = 2
+  	freqList1(0) = 800
+	ampList11(0) = 15
+	ampList12(0) = 17
+	ampList13(0) = 20
+
+	chanList2(0) = 8
+	refList2(0) = 6
+  	freqList2(0) = 100
+	ampList21(0) = 30
+	ampList22(0) = 35
+	ampList23(0) = 40
+
+	chanList1(1) = 1
+	refList1(1) = 2
+  	freqList1(1) = 100
+	ampList11(1) = 30
+	ampList12(1) = 35
+	ampList13(1) = 40
+
+	chanList2(1) = 8
+	refList2(1) = 6
+  	freqList2(1) = 800
+	ampList21(1) = 15
+	ampList22(1) = 17
+	ampList23(1) = 20
+
+	chanList1(2) = 1
+	refList1(2) = 2
+  	freqList1(2) = 400
+	ampList11(2) = 20
+	ampList12(2) = 25
+	ampList13(2) = 30
+
+	chanList2(2) = 8
+	refList2(2) = 6
+  	freqList2(2) = 100
+	ampList21(2) = 30
+	ampList22(2) = 35
+	ampList23(2) = 40
+
+	chanList1(3) = 1
+	refList1(3) = 2
+  	freqList1(3) = 100
+	ampList11(3) = 30
+	ampList12(3) = 35
+	ampList13(3) = 40
+
+	chanList2(3) = 8
+	refList2(3) = 6
+  	freqList2(3) = 400
+	ampList21(3) = 20
+	ampList22(3) = 25
+	ampList23(3) = 30
+
+	chanList1(4) = 1
+	refList1(4) = 2
+  	freqList1(4) = 800
+	ampList11(4) = 15
+	ampList12(4) = 17
+	ampList13(4) = 20
+
+	chanList2(4) = 8
+	refList2(4) = 6
+  	freqList2(4) = 400
+	ampList21(4) = 20
+	ampList22(4) = 25
+	ampList23(4) = 30
+
+	chanList1(5) = 1
+	refList1(5) = 2
+  	freqList1(5) = 400
+	ampList11(5) = 20
+	ampList12(5) = 25
+	ampList13(5) = 30
+
+	chanList2(5) = 8
+	refList2(5) = 6
+  	freqList2(5) = 800
+	ampList21(5) = 15
+	ampList22(5) = 17
+	ampList23(5) = 20
