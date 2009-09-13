@@ -1,8 +1,7 @@
-VERSION_1ENDVERSIONÿëNAME=Grid Size;VALUE=10;GROUPID=Appearance;
+VERSION_1ENDVERSIONÿÀNAME=Grid Size;VALUE=10;GROUPID=Appearance;
 NAME=Page Color;VALUE=13160660;GROUPID=Appearance;
 NAME=Grid Color;VALUE=12107972;GROUPID=Appearance;
 NAME=Highlight Color;VALUE=12582912;GROUPID=Appearance;
-NAME=Save State;VALUE=1;GROUPID=Behavior;
 NAME=Auto Run on Load;VALUE=T;GROUPID=Behaviour;
 NAME=Disable Run Button;VALUE=F;GROUPID=Behaviour;
 NAME=Disable Stop Button;VALUE=F;GROUPID=Behaviour;
@@ -89,7 +88,7 @@ NAME=Logging Mode;VALUE=0;GROUPID=Hide;
 NAME=Log Tank Name;VALUE=;GROUPID=Hide;
 NAME=Log Tank Code (4 chars);VALUE=;GROUPID=Hide;
 NAME=Log Time Stamping Target;VALUE=;GROUPID=Hide;
-NAME=Value;VALUE=26.5742;GROUPID=Value Control;
+NAME=Value;VALUE=32.5742;GROUPID=Value Control;
 NAME=Initialize Value;VALUE=0.;GROUPID=Value Control;
 NAME=Initialize Mode;VALUE=0;GROUPID=Value Control;
 NAME=Value Scale;VALUE=1.;GROUPID=Value Control;
@@ -134,7 +133,7 @@ NAME=Logging Mode;VALUE=0;GROUPID=Hide;
 NAME=Log Tank Name;VALUE=;GROUPID=Hide;
 NAME=Log Tank Code (4 chars);VALUE=;GROUPID=Hide;
 NAME=Log Time Stamping Target;VALUE=;GROUPID=Hide;
-NAME=Value;VALUE=14.0742;GROUPID=Value Control;
+NAME=Value;VALUE=27.2742;GROUPID=Value Control;
 NAME=Initialize Value;VALUE=0.;GROUPID=Value Control;
 NAME=Initialize Mode;VALUE=0;GROUPID=Value Control;
 NAME=Value Scale;VALUE=1.;GROUPID=Value Control;
@@ -220,4 +219,4 @@ Do While 1
 	
 '	Write Attenu,Abs(Att)
 	Sleep(50)
-Loop   €  °    è             þÿÿÿþÿÿÿÿ                               €      è             ÿÿÿÿÿÿÿÿÿ        è            ÿÿÿÿÿÿÿÿÿ            è       è      è            ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ            è              þÿÿÿþÿÿÿÿ                               €      }   ?        
+Loop           è             þÿÿÿþÿÿÿÿ         þÿÿÿþÿÿÿË            €Ð    è             ÿÿÿÿÿÿÿÿÿ        è            ÿÿÿÿÿÿÿÿÿ            è       è      è            ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ            è              þÿÿÿþÿÿÿÿ         þÿÿÿþÿÿÿÑ            € (Ce  }   Á        
