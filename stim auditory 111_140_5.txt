@@ -1,0 +1,107 @@
+freqList1(0) = 37000
+freqList2(0) = 6000
+'ampList11(0) = 55
+'ampList12(0) = 60
+'ampList13(0) = 65
+'ampList21(0) = 55
+'ampList22(0) = 60
+'ampList23(0) = 65
+
+freqList1(1) = 40000
+freqList2(1) = 12000
+'ampList11(1) = 55
+'ampList12(1) = 60
+'ampList13(1) = 65
+'ampList21(1) = 55
+'ampList22(1) = 60
+'ampList23(1) = 65
+
+freqList1(2) = 37000
+freqList2(2) = 22000
+'ampList11(2) = 55
+'ampList12(2) = 60
+'ampList13(2) = 65
+'ampList21(2) = 55
+'ampList22(2) = 60
+'ampList23(2) = 65
+
+freqList1(3) = 40000
+freqList2(3) = 3000
+'ampList11(3) = 55
+'ampList12(3) = 60
+'ampList13(3) = 65
+'ampList21(3) = 55
+'ampList22(3) = 60
+'ampList23(3) = 65
+
+freqList1(4) = 40000
+freqList2(4) = 17000
+'ampList11(4) = 55
+'ampList12(4) = 60
+'ampList13(4) = 65
+'ampList21(4) = 55
+'ampList22(4) = 60
+'ampList23(4) = 65
+
+freqList1(5) = 37000
+freqList2(5) = 17000
+'ampList11(5) = 55
+'ampList12(5) = 60
+'ampList13(5) = 65
+'ampList21(5) = 55
+'ampList22(5) = 60
+'ampList23(5) = 65
+
+freqList1(6) = 26000
+freqList2(6) = 3000
+'ampList11(6) = 55
+'ampList12(6) = 60
+'ampList13(6) = 65
+'ampList21(6) = 55
+'ampList22(6) = 60
+'ampList23(6) = 65
+
+freqList1(7) = 24000
+freqList2(7) = 4000
+'ampList11(7) = 55
+'ampList12(7) = 60
+'ampList13(7) = 65
+'ampList21(7) = 55
+'ampList22(7) = 60
+'ampList23(7) = 65
+
+freqList1(8) = 22000
+freqList2(8) = 4000
+'ampList11(8) = 55
+'ampList12(8) = 60
+'ampList13(8) = 65
+'ampList21(8) = 55
+'ampList22(8) = 60
+'ampList23(8) = 65
+
+freqList1(9) = 25000
+freqList2(9) = 6000
+'ampList11(9) = 55
+'ampList12(9) = 60
+'ampList13(9) = 65
+'ampList21(9) = 55
+'ampList22(9) = 60
+'ampList23(9) = 65
+
+freqList1(10) = 18000
+freqList2(10) = 4000
+'ampList11(10) = 55
+'ampList12(10) = 60
+'ampList13(10) = 65
+'ampList21(10) = 55
+'ampList22(10) = 60
+'ampList23(10) = 65
+
+freqList1(11) = 36000
+freqList2(11) = 25000
+'ampList11(11) = 55
+'ampList12(11) = 60
+'ampList13(11) = 65
+'ampList21(11) = 55
+'ampList22(11) = 60
+'ampList23(11) = 65
