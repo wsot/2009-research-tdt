@@ -1,0 +1,25 @@
+Stimulation Settings,,,,,,
+,,,,,,
+Automation Settings,,,,,,
+#Minimum Value,Maximum Value,Step Size,Repetitions,Stimulus Duration (ms),Period (ms),
+5,50,5,10,50,1000,
+,,,,,,
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+1,0,0,1,120,0,off
+2,0,0,1,120,0,off
+3,0,0,1,120,0,off
+4,0,0,1,120,0,off
+5,0,0,1,120,0,off
+6,0,0,1,120,0,off
+7,0,0,1,120,0,off
+8,0,0,1,120,0,off
+9,0,0,1,120,0,off
+10,0,0,1,120,0,off
+11,0,0,1,120,0,off
+12,0,0,1,120,0,off
+13,0,0,1,120,0,off
+14,0,0,1,120,0,off
+15,0,0,1,120,0,off
+16,0,0,1,120,0,off
