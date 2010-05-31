@@ -1,0 +1,25 @@
+freqList1(0) = 4000
+freqList1(1) = 30000
+freqList1(2) = 12000
+freqList1(3) = 5000
+freqList1(4) = 18000
+freqList1(5) = 30000
+freqList1(6) = 3000
+freqList1(7) = 32000
+freqList1(8) = 4000
+freqList1(9) = 20000
+freqList1(10) = 20000
+freqList1(11) = 25000
+
+freqList2(0) = 18000
+freqList2(1) = 25000
+freqList2(2) = 25000
+freqList2(3) = 30000
+freqList2(4) = 32000
+freqList2(5) = 15000
+freqList2(6) = 12000
+freqList2(7) = 12000
+freqList2(8) = 20000
+freqList2(9) = 30000
+freqList2(10) = 35000
+freqList2(11) = 12000

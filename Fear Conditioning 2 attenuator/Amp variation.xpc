@@ -88,7 +88,7 @@ NAME=Logging Mode;VALUE=0;GROUPID=Hide;
 NAME=Log Tank Name;VALUE=;GROUPID=Hide;
 NAME=Log Tank Code (4 chars);VALUE=;GROUPID=Hide;
 NAME=Log Time Stamping Target;VALUE=;GROUPID=Hide;
-NAME=Value;VALUE=32.5742;GROUPID=Value Control;
+NAME=Value;VALUE=24.0021;GROUPID=Value Control;
 NAME=Initialize Value;VALUE=0.;GROUPID=Value Control;
 NAME=Initialize Mode;VALUE=0;GROUPID=Value Control;
 NAME=Value Scale;VALUE=1.;GROUPID=Value Control;
@@ -133,7 +133,7 @@ NAME=Logging Mode;VALUE=0;GROUPID=Hide;
 NAME=Log Tank Name;VALUE=;GROUPID=Hide;
 NAME=Log Tank Code (4 chars);VALUE=;GROUPID=Hide;
 NAME=Log Time Stamping Target;VALUE=;GROUPID=Hide;
-NAME=Value;VALUE=27.2742;GROUPID=Value Control;
+NAME=Value;VALUE=35.8021;GROUPID=Value Control;
 NAME=Initialize Value;VALUE=0.;GROUPID=Value Control;
 NAME=Initialize Mode;VALUE=0;GROUPID=Value Control;
 NAME=Value Scale;VALUE=1.;GROUPID=Value Control;
@@ -145,8 +145,8 @@ NAME=Number Digits;VALUE=4;GROUPID=Layout;
 NAME=Leading Style;VALUE=2;GROUPID=Layout;
 NAME=Show Sign;VALUE=F;GROUPID=Layout;
 NAME=Precision;VALUE=1;GROUPID=Layout;
-ÿÚDim Attarr(44100)
-CalibFileName = "C:\Electrophysiology Projects\Simeon Morgan\Calibrations\freefield_20090912_20cm_fft2048_15reps_10v.txt"
+ÿºDim Attarr(44100)
+CalibFileName = "C:\Electrophysiology Projects\Simeon Morgan\Calibrations\in box 10v.txt"
 
 Set oFFS1 = CreateObject("Scripting.FileSystemObject")
 Set oFFile1 = oFFS1.GetFile(CalibFileName)
@@ -219,4 +219,4 @@ Do While 1
 	
 '	Write Attenu,Abs(Att)
 	Sleep(50)
-Loop           è             þÿÿÿþÿÿÿÿ         þÿÿÿþÿÿÿË            €Ð    è             ÿÿÿÿÿÿÿÿÿ        è            ÿÿÿÿÿÿÿÿÿ            è       è      è            ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ            è              þÿÿÿþÿÿÿÿ         þÿÿÿþÿÿÿÑ            € (Ce  }   Á        
+Loop           è             þÿÿÿþÿÿÿÿ         þÿÿÿþÿÿÿË            €Ð    è             ÿÿÿÿÿÿÿÿÿ        è            ÿÿÿÿÿÿÿÿÿ            è       è      è            ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ            è              þÿÿÿþÿÿÿÿ         þÿÿÿþÿÿÿÑ            €ns S  }   Á  ôÿÿÿ   
