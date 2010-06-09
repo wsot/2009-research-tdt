@@ -1,4 +1,4 @@
-VERSION_1ENDVERSIONÿÃHNAME=Grid Size;VALUE=10;GROUPID=Appearance;
+VERSION_1ENDVERSIONÿÅHNAME=Grid Size;VALUE=10;GROUPID=Appearance;
 NAME=Page Color;VALUE=13160660;GROUPID=Appearance;
 NAME=Grid Color;VALUE=12107972;GROUPID=Appearance;
 NAME=Highlight Color;VALUE=12582912;GROUPID=Appearance;
@@ -140,7 +140,7 @@ NAME=Logging Mode;VALUE=0;GROUPID=Hide;
 NAME=Log Tank Name;VALUE=;GROUPID=Hide;
 NAME=Log Tank Code (4 chars);VALUE=;GROUPID=Hide;
 NAME=Log Time Stamping Target;VALUE=;GROUPID=Hide;
-NAME=Value;VALUE=99.;GROUPID=Value Control;
+NAME=Value;VALUE=123.;GROUPID=Value Control;
 NAME=Initialize Value;VALUE=0.;GROUPID=Value Control;
 NAME=Initialize Mode;VALUE=0;GROUPID=Value Control;
 NAME=Value Scale;VALUE=1.;GROUPID=Value Control;
@@ -289,7 +289,7 @@ NAME=Logging Mode;VALUE=0;GROUPID=Hide;
 NAME=Log Tank Name;VALUE=;GROUPID=Hide;
 NAME=Log Tank Code (4 chars);VALUE=;GROUPID=Hide;
 NAME=Log Time Stamping Target;VALUE=;GROUPID=Hide;
-NAME=Value;VALUE=67.;GROUPID=Value Control;
+NAME=Value;VALUE=71.;GROUPID=Value Control;
 NAME=Initialize Value;VALUE=0.;GROUPID=Value Control;
 NAME=Initialize Mode;VALUE=0;GROUPID=Value Control;
 NAME=Value Scale;VALUE=1.;GROUPID=Value Control;
@@ -341,7 +341,7 @@ NAME=Logging Mode;VALUE=0;GROUPID=Hide;
 NAME=Log Tank Name;VALUE=;GROUPID=Hide;
 NAME=Log Tank Code (4 chars);VALUE=;GROUPID=Hide;
 NAME=Log Time Stamping Target;VALUE=;GROUPID=Hide;
-NAME=Value;VALUE=99.;GROUPID=Value Control;
+NAME=Value;VALUE=123.;GROUPID=Value Control;
 NAME=Initialize Value;VALUE=0.;GROUPID=Value Control;
 NAME=Initialize Mode;VALUE=0;GROUPID=Value Control;
 NAME=Value Scale;VALUE=1.;GROUPID=Value Control;
@@ -360,4 +360,4 @@ NAME=Position Labels;VALUE=97,98,99,100,101,102,103,104,105,106,107,108,109,110,
 NAME=Position Values;VALUE=97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128;GROUPID=Switch Positions;
 NAME=Key Arrow Step Size;VALUE=10;GROUPID=Switch Positions;
 NAME=Key Page Step Size;VALUE=100;GROUPID=Switch Positions;
-   €  °    è              þÿÿÿþÿÿÿÿ                 n)            €      è              ÿÿÿÿÿÿÿÿÿ        è            ÿÿÿÿÿÿÿÿÿ            è       è      è            ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ            è             þÿÿÿþÿÿÿÿ         þÿÿÿþÿÿÿÑ            €Mode  ÿøÿÿ   TûÿÿŠ  
+   €  °    è              þÿÿÿþÿÿÿÿ         þÿÿÿþÿÿÿÑ            €.	    è              ÿÿÿÿÿÿÿÿÿ        è            ÿÿÿÿÿÿÿÿÿ            è       è      è            ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ           è             ÿÿÿÿÿÿÿÿÿ            è             þÿÿÿþÿÿÿÿ         þÿÿÿþÿÿÿÑ            €Mode  ÿøÿÿ   TûÿÿŠ  
