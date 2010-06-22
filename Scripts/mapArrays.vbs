@@ -35,7 +35,10 @@ Function mapGenerateArrayFromInterface(outputPath as String, freqOutputFilename 
 	reps = CInt(Read(">Reps"))
 	
 	mapGenerateArrayFromInterface = mapGenerateArrays(seqOrder, freqMin, freqMax, freqStep, ampMin, ampMax, ampStep, reps)
-	mapWriteToFile(mapGenerateArrayFromInterface, outputPath, freqOutputFilename, ampOutputFilename, generateDatedFiles)
+	mapWriteToFilesForDevice(mapGenerateArrayFromInterface, outputPath, freqOutputFilename, ampOutputFilename)
+	If generateDatedFiles Then
+		mapWriteDatedFiles(mapGenerateArrayFromInterface, outputPath)
+	End If
 
 End Function
 
@@ -104,7 +107,7 @@ Function mapGenerateArrays(seqOrder as Integer, freqMin as Long, freqMax as Long
 
 End Function
 
-Function mapWriteToFile(pairArr as Variant, outputPath as String, freqOutputFilename as String, ampOutputFilename as String, generateDatedFiles as Boolean)
+Function mapWriteToFilesForDevice(pairArr as Variant, outputPath as String, freqOutputFilename as String, ampOutputFilename as String)
 
 	Dim objFSO As Object
 	Dim objFreqTS As Object, objAmpTS As Object
@@ -115,12 +118,10 @@ Function mapWriteToFile(pairArr as Variant, outputPath as String, freqOutputFile
 
 	Dim currentEntry As Long
 
-	Dim swapWith As Long
     Dim pairVal As String 'holds string value of frequency/amplitude pair
     Dim pairSplit As Variant 'holds split array of frequency/amplitude pair during processing
     Dim freq As Long 'frequency currently being processed
     Dim amp As Integer 'amp currently being processed
-    Dim rep As Integer 'rep currently being processed
 
 	'iterate through each string freq/amp pair, split and write to file
     For currentEntry = 0 To UBound(pairArr)
@@ -136,19 +137,40 @@ Function mapWriteToFile(pairArr as Variant, outputPath as String, freqOutputFile
 	objFreqTS.close
 	objAmpTS.close
 
-	If generateDatedFiles Then
-		Dim strTimestamp As String
-		strTimestamp = Year(Now()) & Month(Now()) & Day(Now()) & "_" & Hour(Now()) & Minute(Now()) & Second(Now())
-		objFSO.CopyFile(outputPath & freqOutputFilename & ".txt",  outputPath & strTimestamp & "_" & freqOutputFilename & ".txt")
-		objFSO.CopyFile(outputPath & ampOutputFilename & ".txt", outputPath & strTimestamp & "_" & ampOutputFilename & ".txt")
-	End If
-
-
 	Set objFSO = Nothing
 End Function
 
-Function mapReadFromFile(freqInputFilename as String, ampInputFilename as String)
+Function mapWriteDatedFiles(pairArr as Variant, outputPath as String)
+	mapWriteToFile(pairArr, outputPath, Year(Now()) & Month(Now()) & Day(Now()) & "_" & Hour(Now()) & Minute(Now()) & Second(Now()) & "_map.csv")
+End Function
 
+Function mapWriteToFile(pairArr as Variant, outputPath as String, outputFilename as String)
+
+	Dim objFSO As Object
+	Dim objTS As Object
+
+	Set objFSO = CreateObject("Scripting.FileSystemObject")
+	Set objTS = objFSO.CreateTextFile(outputPath & outputFilename, True)
+
+	Dim currentEntry As Long
+    Dim pairVal As String 'holds string value of frequency/amplitude pair
+    
+    objTS.WriteLine("#Frequency,Amplitude") 'write column headers
+    
+	'iterate through each string freq/amp pair, split and write to file
+    For currentEntry = 0 To UBound(pairArr)
+    	pairVal = pairArr(currentEntry)
+		objTS.WriteLine(pairVal) 'write to file
+    Next
+
+	'close files
+	objTS.Close
+	
+	Set objFSO = Nothing
+End Function
+
+
+Function mapReadFromFile(inputFilename as String)
 		'initially dim pair array as 616 items; enough for 10-70dB at 10dB steps, and 1-88kHz in 1kHz step
 		Dim upperBound as Integer
 		upperBound = 615
@@ -163,27 +185,26 @@ Function mapReadFromFile(freqInputFilename as String, ampInputFilename as String
 		Dim objFSO As Object
 		Set objFSO = CreateObject("Scripting.FileSystemObject")
 		
-		'open frequency list and get text stream for reading
-		Dim objFreqFile As Object, objFreqTS As Object
-		Set objFreqFile = objFSO.GetFile(freqInputFilename)
-		Set objFreqTS = objFreqFile.OpenAsTextStream
-		
-		'open amplitude list and get text stream for reading
-		Dim objAmpFile As Object, objAmpTS As Object
-		Set objAmpFile = objFSO.GetFile(ampInputFilename)
-		Set objAmpTS = objAmpFile.OpenAsTextStream
-				
-		While Not objFreqTS.AtEndOfStream
-			pairArr(intCount) = objFreqTS.ReadLine & "," & objAmpTS.ReadLine
-			intCount = intCount + 1
-			If intCount = (upperBound + 1) Then 'check if the pair array is now full, and needs expanding
-				upperBound = upperBound + 100
-				ReDim Preserve pairArr(upperBound)
+		'open csv and get text stream for reading
+		Dim objFile As Object, objTS as Object
+		Set objFile = objFSO.GetFile(inputFilename)
+		Set objTS = objFile.OpenAsTextStream
+
+		Dim strLine As String
+
+		While Not objTS.AtEndOfStream
+			strLine = objTS.ReadLine
+			If Not Left(strLine, 1) = "#" Then 'if first character is # then ignore the line
+				pairArr(intCount) = strLine
+				intCount = intCount + 1
+				If intCount = (upperBound + 1) Then 'check if the pair array is now full, and needs expanding
+					upperBound = upperBound + 100
+					ReDim Preserve pairArr(upperBound)
+				End If
 			End If
 		Wend
 		
-		objFreqTS.Close
-		objAmpTS.Close
+		objTS.Close
 		
 		ReDim Preserve pairArr(intCount - 1)
 		
