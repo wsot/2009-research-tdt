@@ -1,2 +1,3 @@
 glob:DataTanks\*
 glob:Map/UserFiles/*
+glob:*/.timestamp
