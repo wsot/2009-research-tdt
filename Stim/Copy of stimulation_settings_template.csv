@@ -1,0 +1,63 @@
+Stimulation Settings,,,,,,
+,,,,,,
+Automation Settings,,,,,,
+#Minimum Value,Maximum Value,Step Size,Repetitions,Stimulus Duration (ms),Period (ms),
+5,50,5,10,50,1000,
+,,,,,,
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+1,0,0,1,120,40,auto
+16,0,0,1,120,40,ref
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+2,0,0,1,120,40,auto
+16,0,0,1,120,40,ref
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+3,0,0,1,120,40,auto
+16,0,0,1,120,40,ref
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+4,0,0,1,120,40,auto
+16,0,0,1,120,40,ref
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+5,0,0,1,120,40,auto
+16,0,0,1,120,40,ref
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+6,0,0,1,120,40,auto
+16,0,0,1,120,40,ref
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+1,0,0,1,120,40,auto
+2,0,0,1,120,40,ref
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+3,0,0,1,120,40,auto
+1,0,0,1,120,40,ref
+,,,,,,
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+4,0,0,1,120,40,auto
+5,0,0,1,120,40,ref
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+5,0,0,1,120,40,auto
+4,0,0,1,120,40,ref
+,,,,,,
+,,,,,,
+Stimulation Set,,,,,,
+#Channel,Current (uA),Delay (ms),Frequency (Hz),Phase Duration (us),Interphase Gap (us),"Use (off, stim, auto, ref)"
+5,0,0,1,120,40,auto
+6,0,0,1,120,40,ref
